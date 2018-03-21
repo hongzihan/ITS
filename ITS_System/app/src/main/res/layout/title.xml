@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/title_linearlayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#b6b196">
+
+    <Button
+        android:id="@+id/front_back"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/title_front_back"
+
+        android:text=""
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/front_text"
+        android:layout_width="0dp"
+        android:layout_weight="7"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:gravity="center_vertical"
+        android:text="智能交通信息系统"
+        android:textAlignment="center"
+        android:textColor="#6d7358"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/front_manage"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:text=""
+        android:background="@drawable/blank"
+        android:textColor="#fff"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/front_now"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:text=""
+        android:background="@drawable/blank"
+        android:textColor="#fff"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>

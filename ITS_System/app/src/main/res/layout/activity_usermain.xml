@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hzh="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <its.hzh.com.its_system.view.SlidingMenu
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        hzh:rightPadding="400dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <include layout="@layout/left_menu"/>
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@drawable/qq">-->
+            <!---->
+            <!--<Button-->
+            <!--android:id="@+id/toggleClick"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="菜单"/>-->
+
+            <!--</LinearLayout>-->
+
+                <LinearLayout
+                    android:id="@+id/right_frag"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="#fffafa"
+                    android:orientation="vertical">
+                    <include layout="@layout/title"/>
+                    <include layout="@layout/title2"
+                        android:id="@+id/title2"
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </its.hzh.com.its_system.view.SlidingMenu>
+</RelativeLayout>

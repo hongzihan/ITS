@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litpal>
+    <dbname value="smartCar"></dbname>
+
+    <version value="3"></version>
+
+    <list>
+        //映射模型类（声明数据表）
+        <mapping class="its.hzh.com.its_system.db.Record"></mapping>
+        <mapping class="its.hzh.com.its_system.db.Car"></mapping>
+        <mapping class="its.hzh.com.its_system.db.User"></mapping>
+    </list>
+</litpal>
